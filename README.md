@@ -27,11 +27,11 @@ add jitpack.io in allprojects, in project gradle
 
  implement lib in yout module gradle
  
-    implementation 'com.github.master-killercode:tb-alert:1.0.0'
+    implementation 'com.github.quanticheart:bakery:1.0.9'
 
  for module gradle incompatible, use:
 
-    implementation ('com.github.master-killercode:tb-alert:1.0.0'){
+    implementation ('com.github.quanticheart:bakery:1.0.9'){
            exclude group: "com.android.support"
     }
 
