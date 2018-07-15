@@ -74,6 +74,7 @@ public class activityToasted extends AppCompatActivity implements View.OnClickLi
 
     }
 
+
     private void initVars() {
 
         toolbar = findViewById(R.id.toolbar);
